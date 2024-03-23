@@ -1,0 +1,63 @@
+<section class="your-order-section section">
+  <div class="background-img-order"></div>
+  <div class="container your-order-flex-container">
+    <div class="order-block">
+      <h2 class="your-order-header"
+        id="your-order">
+        <span class="your-order-header-span accent-color">Your order</span> is
+        our priority: Personalized approach and quality of service
+      </h2>
+      <form class="order-form">
+        <input class="name-input"
+          type="text"
+          placeholder="Enter your full name"
+          required />
+        <input class="email-input"
+          type="email"
+          placeholder="Enter your email"
+          title="Maria"
+          pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄйЙʼ]+"
+          required />
+        <textarea class="comments-input"
+          type="text"
+          placeholder="Comments"
+          required></textarea>
+        <button class="send-btn button"
+          type="submit">
+          SEND
+          <svg class="btn-icon"
+            width="27.52"
+            height="22">
+            <use href="./img/symbol-defs.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <div class="img-wrapper">
+      <!-- vest img -->
+      <!-- <picture> -->
+      <!-- Desktop screen -->
+      <!-- <source media="(min-width: 1280px)"
+          srcset="./img/des-one/vest-des.jpg   1x,
+                  ./img/des-one/vest-des@2x.jpg 2x"
+          type="image/jpg" /> -->
+      <!-- Tablet screen -->
+      <!-- <source media="(min-width: 768px)"
+          srcset="./img/tablet/vest-tab.jpg   1x,
+                  ./img/tablet/vest-tab@2x.jpg 2x"
+          type="image/jpg" />
+      </picture> -->
+      <!-- ornament img -->
+      <img class="vest-img"
+        srcset="
+          ./img/tablet/vest-tab.jpg      638w,
+          ./img/des-one/vest-des.jpg     524w,
+          ./img/tablet/vest-tab@2x.jpg  1276w,
+          ./img/des-one/vest-des@2x.jpg 1048w
+        "
+        sizes="(min-width: 1280px) 524px, (min-width: 768px) and (max-width: 1279px) 638px"
+        src="./img/tablet/vest-tab.jpg"
+        alt="vest vyshivanka" />
+    </div>
+  </div>
+</section>
